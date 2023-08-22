@@ -1,8 +1,11 @@
 // ru/netology/services/RestServiceTest.java
 package ru.netology.services;
 
+import org.junit.jupiter.api.Test;
+
 public class RestServiceTest {
-    public static void main(String[] args) {
+    @Test
+    public void main() {
         RestService restService = new RestService();
 
         int result1 = restService.calculate(10000, 3000, 20000);
